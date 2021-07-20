@@ -1,0 +1,75 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (8.000000,6.000000);
+{\footnotesize
+
+% Drawing segment A B
+\draw [line width=0.016cm] (1.990299,4.961194) -- (1.509701,3.038806);%
+\draw [line width=0.016cm] (1.490299,2.961194) -- (1.009701,1.038806);%
+
+% Drawing segment B C
+\draw [line width=0.016cm] (1.040000,1.000000) -- (3.960000,1.000000);%
+\draw [line width=0.016cm] (4.040000,1.000000) -- (6.960000,1.000000);%
+
+% Drawing segment C A
+\draw [line width=0.016cm] (6.968765,1.024988) -- (4.531235,2.975012);%
+\draw [line width=0.016cm] (4.468765,3.024988) -- (2.031235,4.975012);%
+
+% Marking point A by circle
+\draw [line width=0.016cm] (2.000000,5.000000) circle (0.040000);%
+\draw (2.030000,4.970000) node [anchor=south east] { $A$ };%
+
+% Marking point B by circle
+\draw [line width=0.016cm] (1.000000,1.000000) circle (0.040000);%
+\draw (1.030000,1.030000) node [anchor=north east] { $B$ };%
+
+% Marking point C by circle
+\draw [line width=0.016cm] (7.000000,1.000000) circle (0.040000);%
+\draw (6.970000,1.030000) node [anchor=north west] { $C$ };%
+
+% Marking point C_1 by circle
+\draw [line width=0.016cm] (1.500000,3.000000) circle (0.040000);%
+\draw (1.500000,3.000000) node [anchor=east] { $C_1$ };%
+
+% Marking point B_1 by circle
+\draw [line width=0.016cm] (4.500000,3.000000) circle (0.040000);%
+\draw (4.500000,3.000000) node [anchor=west] { $B_1$ };%
+
+% Drawing segment B B_1
+\draw [line width=0.016cm] (1.034730,1.019846) -- (3.298604,2.313488);%
+\draw [line width=0.016cm] (3.368063,2.353179) -- (4.465270,2.980154);%
+
+% Drawing segment C C_1
+\draw [line width=0.016cm] (6.962408,1.013670) -- (3.370925,2.319664);%
+\draw [line width=0.016cm] (3.295742,2.347003) -- (1.537592,2.986330);%
+
+% Marking point T by circle
+\draw [line width=0.016cm] (3.333333,2.333333) circle (0.040000);%
+\draw (3.333333,2.333333) node [anchor=south] { $T$ };%
+
+% Marking point A_1 by circle
+\draw [line width=0.016cm] (4.000000,1.000000) circle (0.040000);%
+\draw (4.000000,1.000000) node [anchor=north] { $A_1$ };%
+
+% Drawing segment A A_1
+\draw [line width=0.016cm] (2.017889,4.964223) -- (3.315445,2.369110);%
+\draw [line width=0.016cm] (3.351222,2.297556) -- (3.982111,1.035777);%
+
+% Printing text at point C_2
+\draw (5.196667,1.696667) node [anchor=north east] { $2$ };%
+
+% Printing text at point B_2
+\draw (2.136667,1.696667) node [anchor=north west] { $2$ };%
+
+% Printing text at point A_2
+\draw (2.696667,3.696667) node [anchor=north east] { $2$ };%
+
+% Printing text at point C_3
+\draw (2.446667,2.696667) node [anchor=north east] { $1$ };%
+
+% Printing text at point B_3
+\draw (3.886667,2.696667) node [anchor=north west] { $1$ };%
+
+% Printing text at point A_3
+\draw (3.696667,1.696667) node [anchor=north east] { $1$ };%
+}
+\end{tikzpicture}

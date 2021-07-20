@@ -1,0 +1,46 @@
+dim 120 80
+area 7 7 113 73
+point A 22 25
+point B 100 12
+point C 55 70
+
+cmark_b A
+cmark_b B
+cmark_lt C 
+
+line a B C
+line b A C
+line c A B
+
+drawsegment B C
+drawsegment A C
+drawsegment B A
+
+bis s_a B A C
+bis s_b A B C
+bis s_c A C B
+
+drawline s_a
+drawline s_b
+drawline s_c
+
+intersec S s_a s_b
+cmark_lb S
+
+perp n S a
+intersec N n a
+cmark N
+drawsegment S N
+
+perp m S b
+intersec M m b
+cmark M
+drawsegment S M
+
+perp k S c
+intersec K k c
+cmark K
+drawsegment S K
+
+circle k S N
+drawcircle k

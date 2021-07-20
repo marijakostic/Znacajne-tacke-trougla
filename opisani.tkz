@@ -1,0 +1,47 @@
+\begin{tikzpicture}
+\clip (0,0) rectangle (8.000000,6.000000);
+{\footnotesize
+
+% Marking point A by circle
+\draw [line width=0.016cm] (3.000000,4.500000) circle (0.040000);%
+\draw (3.030000,4.470000) node [anchor=south east] { $A$ };%
+
+% Marking point B by circle
+\draw [line width=0.016cm] (2.500000,1.500000) circle (0.040000);%
+\draw (2.530000,1.530000) node [anchor=north east] { $B$ };%
+
+% Marking point C by circle
+\draw [line width=0.016cm] (7.000000,1.500000) circle (0.040000);%
+\draw (6.970000,1.530000) node [anchor=north west] { $C$ };%
+
+% Drawing segment A B
+\draw [line width=0.016cm] (2.993424,4.460544) -- (2.506576,1.539456);%
+
+% Drawing segment B C
+\draw [line width=0.016cm] (2.540000,1.500000) -- (6.960000,1.500000);%
+
+% Drawing segment C A
+\draw [line width=0.016cm] (6.968000,1.524000) -- (3.032000,4.476000);%
+
+% Drawing circle O A
+\draw [line width=0.016cm] (2.971285,4.472154) -- (2.957849,4.458818) arc (135:206:2.534484 and 2.534484) -- (2.481868,1.535654);%
+\draw [line width=0.016cm] (2.518692,1.464637) -- (2.533290,1.437925) arc (209:331:2.534484 and 2.534484) -- (6.981307,1.464636);%
+\draw [line width=0.016cm] (7.018132,1.535654) -- (7.027979,1.555621) arc (334:360:2.534484 and 2.534484) --(7.284484,2.666667) arc (0:132:2.534484 and 2.534484) -- (3.029152,4.527390);%
+
+% Marking point O by circle
+\draw [line width=0.016cm] (4.750000,2.666667) circle (0.040000);%
+\draw (4.780000,2.636667) node [anchor=south east] { $O$ };%
+
+% Drawing line a
+\draw [line width=0.016cm] (4.750000,0.000000) -- (4.750000,2.626667);%
+\draw [line width=0.016cm] (4.750000,2.706667) -- (4.750000,6.000000);%
+
+% Drawing line b
+\draw [line width=0.016cm] (2.750000,0.000000) -- (4.726000,2.634667);%
+\draw [line width=0.016cm] (4.774000,2.698667) -- (7.250000,6.000000);%
+
+% Drawing line c
+\draw [line width=0.016cm] (0.000000,3.458333) -- (4.710544,2.673243);%
+\draw [line width=0.016cm] (4.789456,2.660091) -- (8.000000,2.125000);%
+}
+\end{tikzpicture}

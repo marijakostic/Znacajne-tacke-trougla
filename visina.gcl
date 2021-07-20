@@ -1,0 +1,22 @@
+dim 120 80
+area 10 10 110 70
+point A 26 20
+point B 101 18
+point C 42 67
+
+cmark_b A
+cmark_b B
+cmark_lt C 
+
+line a B C
+line b A C
+line c A B
+
+drawsegment B C
+drawsegment A C
+drawsegment B A
+
+foot C_1 C c
+cmark_b C_1
+
+drawsegment C C_1

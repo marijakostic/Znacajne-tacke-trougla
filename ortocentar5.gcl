@@ -1,0 +1,57 @@
+dim 180 130
+area 10 10 170 120
+point A 76 65
+point B 151 63
+point C 92 112
+
+cmark_b A
+cmark_b B
+cmark_lt C 
+
+line a B C
+line b A C
+line c A B
+
+drawsegment B C
+drawsegment A C
+drawsegment B A
+
+parallel a_1 A a
+parallel b_1 B b
+parallel c_1 C c
+
+drawline a_1
+drawline b_1
+drawline c_1
+
+intersec P b_1 c_1
+intersec Q c_1 a_1
+intersec R a_1 b_1
+
+cmark_rb P
+cmark_lb Q
+cmark_r R
+
+
+perp h_a A a
+perp h_b B b
+perp h_c C c
+
+drawline h_a
+drawline h_b
+drawline h_c
+
+
+intersec H h_a h_b
+cmark_r H
+
+towards M A H -1.5
+printat_rb M {h_a}
+
+towards N H B 1.2
+printat_lb N {h_b}
+
+towards S C H 3
+printat_rb S {h_c}
+
+

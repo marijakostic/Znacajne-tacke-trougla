@@ -1,0 +1,77 @@
+\begin{tikzpicture}[scale=0.4]
+\clip (0,0) rectangle (18.000000,13.000000);
+{\footnotesize
+
+% Marking point A by circle
+\draw [line width=0.016cm] (7.600000,6.500000) circle (0.040000);%
+\draw (7.600000,6.500000) node [anchor=north] { $A$ };%
+
+% Marking point B by circle
+\draw [line width=0.016cm] (15.100000,6.300000) circle (0.040000);%
+\draw (15.100000,6.300000) node [anchor=north] { $B$ };%
+
+% Marking point C by circle
+\draw [line width=0.016cm] (9.200000,11.200000) circle (0.040000);%
+\draw (9.230000,11.170000) node [anchor=south east] { $C$ };%
+
+% Drawing segment B C
+\draw [line width=0.016cm] (15.069228,6.325556) -- (9.230772,11.174444);%
+
+% Drawing segment A C
+\draw [line width=0.016cm] (7.612891,6.537866) -- (9.187109,11.162134);%
+
+% Drawing segment B A
+\draw [line width=0.016cm] (15.060014,6.301066) -- (7.639986,6.498934);%
+
+% Drawing line a_1
+\draw [line width=0.016cm] (14.222449,1.000000) -- (13.530772,1.574444);%
+\draw [line width=0.016cm] (13.469228,1.625556) -- (7.630772,6.474444);%
+\draw [line width=0.016cm] (7.569228,6.525556) -- (1.730772,11.374444);%
+\draw [line width=0.016cm] (1.669228,11.425556) -- (1.000000,11.981356);%
+
+% Drawing line b_1
+\draw [line width=0.016cm] (13.295745,1.000000) -- (13.487109,1.562134);%
+\draw [line width=0.016cm] (13.512891,1.637866) -- (15.087109,6.262134);%
+\draw [line width=0.016cm] (15.112891,6.337866) -- (16.687109,10.962134);%
+\draw [line width=0.016cm] (16.712891,11.037866) -- (17.000000,11.881250);%
+
+% Drawing line c_1
+\draw [line width=0.016cm] (1.000000,11.418667) -- (1.660014,11.401066);%
+\draw [line width=0.016cm] (1.739986,11.398934) -- (9.160014,11.201066);%
+\draw [line width=0.016cm] (9.239986,11.198934) -- (16.660014,11.001066);%
+\draw [line width=0.016cm] (16.739986,10.998934) -- (17.000000,10.992000);%
+
+% Marking point P by circle
+\draw [line width=0.016cm] (16.700000,11.000000) circle (0.040000);%
+\draw (16.670000,11.030000) node [anchor=north west] { $P$ };%
+
+% Marking point Q by circle
+\draw [line width=0.016cm] (1.700000,11.400000) circle (0.040000);%
+\draw (1.730000,11.430000) node [anchor=north east] { $Q$ };%
+
+% Marking point R by circle
+\draw [line width=0.016cm] (13.500000,1.600000) circle (0.040000);%
+\draw (13.500000,1.600000) node [anchor=west] { $R$ };%
+
+% Drawing line h_a
+\draw [line width=0.016cm] (3.032203,1.000000) -- (7.574444,6.469228);%
+\draw [line width=0.016cm] (7.625556,6.530772) -- (12.167797,12.000000);%
+
+% Drawing line h_b
+\draw [line width=0.016cm] (1.000000,11.100000) -- (15.062134,6.312891);%
+\draw [line width=0.016cm] (15.137866,6.287109) -- (17.000000,5.653191);%
+
+% Drawing line h_c
+\draw [line width=0.016cm] (8.928000,1.000000) -- (9.198934,11.160014);%
+\draw [line width=0.016cm] (9.201066,11.239986) -- (9.221333,12.000000);%
+
+% Printing text at point M
+\draw (5.284619,3.778215) node [anchor=north west] { $h_a$ };%
+
+% Printing text at point N
+\draw (16.325283,5.923095) node [anchor=north east] { $h_b$ };%
+
+% Printing text at point S
+\draw (8.940762,2.633570) node [anchor=north west] { $h_c$ };%
+}
+\end{tikzpicture}
